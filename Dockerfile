@@ -1,8 +1,8 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer="srikanthbayyapu@gmail.com"
+LABEL maintainer="deepak@softwareyoga.com"
 
-ADD target/*.war /usr/local/tomcat/webapps/
+ADD myweb-0.0.7-SNAPSHOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
